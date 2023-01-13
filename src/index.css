@@ -3,11 +3,14 @@
 }
 
 body {
-  margin: 0;
+  margin: 100px 0;
   background-color: #0B2434;
   padding: 20px;
   font-family: 'Karla', sans-serif;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 main {
